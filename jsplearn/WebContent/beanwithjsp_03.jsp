@@ -22,7 +22,7 @@
 	<!-- id为该bean的名字(不可重复), class为类的全路径 -->
 	<jsp:useBean id="thirdUserBean" class="xm.learn.jsp.bean.User"></jsp:useBean>
 
-	<!-- 使用该标签之后, 就等价于firstUserBean.setUsername("小埋") -->
+	<!-- 使用该标签之后, 就等价于给所有匹配的属性设置firstUserBean.setXXX("") -->
 	<!-- 这是第三种设置属性值的方式, 关联表单中的某个元素 -->
 	<!-- 注意, 表单中的name属性应与bean中的属性名一一对应 -->
 	<jsp:setProperty property="username" name="thirdUserBean" />
