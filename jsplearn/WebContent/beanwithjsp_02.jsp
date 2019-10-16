@@ -17,11 +17,11 @@
 	<!-- jsp中的bean共分为4个作用域, page(默认), request, session, application -->
 	<!-- jsp中的bean的名称应保持一致, 包括setter中的形参名字 -->
 
-	<!-- 使用该标签之后, 就等价于User firstUserBean = new User() -->
+	<!-- 使用该标签之后, 就等价于User secondUserBean = new User() -->
 	<!-- id为该bean的名字(不可重复), class为类的全路径 -->
 	<jsp:useBean id="secondUserBean" class="xm.learn.jsp.bean.User"></jsp:useBean>
 
-	<!-- 使用该标签之后, 就等价于firstUserBean.setUsername("小埋") -->
+	<!-- 使用该标签之后, 就等价于给所有匹配的属性设置firstUserBean.setXXX("") -->
 	<!-- 这是第二种设置属性值的方式, 关联表单中的所有元素 -->
 	<!-- 注意, 表单中的name属性应与bean中的属性名一一对应 -->
 	<jsp:setProperty property="*" name="secondUserBean" />
