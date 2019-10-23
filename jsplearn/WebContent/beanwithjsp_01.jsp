@@ -7,6 +7,10 @@
 <title>最简单的在jsp中使用java bean示例 01</title>
 </head>
 <body>
+	<!-- 页面描述
+		  该页面主要是了解bean的简单使用, 就是直接在页面中设置bean的值。
+	 -->
+
 	<!-- 请通过http://localhost:8080/jsplearn/beanwithjsp_01.jsp来访问当前示例 -->
 	
 	<!-- jsp中的bean共分为4个作用域, page(默认), request, session, application -->

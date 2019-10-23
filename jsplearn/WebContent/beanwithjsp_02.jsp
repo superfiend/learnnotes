@@ -7,10 +7,14 @@
 <title>最简单的在jsp中使用java bean示例 02</title>
 </head>
 <body>
+	<!-- 页面描述
+		  该页面主要是了解bean的简单使用, 就是通过将from中的值全部映射到bean当中。
+	 -->
+
 	<!-- 请通过http://localhost:8080/jsplearn/beanwithjsp_02.html来访问当前示例 -->
 
-	<%  
-	    // 通过设置这个, 避免post请求传来的中文数据乱码
+	<%
+		// 通过设置这个, 避免post请求传来的中文数据乱码
 		request.setCharacterEncoding("utf-8");
 	%>
 
