@@ -1,0 +1,5 @@
+这是一篇关于jquery中show函数的使用说明
+
+格式: show(speed, callback)。
+参数: speed 从隐藏到完全显示的时间, 默认为0, 可选参数: 数字(如1000), 单位毫秒, slow(600), normal(400), fast(200)。
+说明: 元素必须为display: 'hidden' 或者 $.hidden()元素, 如果speed为数字, 不能加""符号。
